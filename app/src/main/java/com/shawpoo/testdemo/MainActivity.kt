@@ -25,5 +25,8 @@ class MainActivity : AppCompatActivity() {
 
         // master add
         Log.d(TAG, "this is the log for master.")
+
+        // master add
+        Log.d(TAG, "test git commit --amend.")
     }
 }

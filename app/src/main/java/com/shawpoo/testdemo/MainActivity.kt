@@ -2,6 +2,7 @@ package com.shawpoo.testdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -18,5 +19,8 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Hello world!", Toast.LENGTH_SHORT).show()
 
         }
+
+        // branch1 add
+        Log.d(TAG, "this is log for branch1")
     }
 }

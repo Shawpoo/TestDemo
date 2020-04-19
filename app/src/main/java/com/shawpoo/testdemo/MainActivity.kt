@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         // branch1 add
-        Log.d(TAG, "this is log for branch1")
+        Log.d(TAG, "this is this log for branch1.")
+
+        // master add
+        Log.d(TAG, "this is the log for master.")
     }
 }

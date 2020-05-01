@@ -22,5 +22,8 @@ class MainActivity : AppCompatActivity() {
 
         // branch1 add
         Log.d(TAG, "this is log for branch1")
+
+        // branch1 add
+        Log.d(TAG, "这是你写的代码")
     }
 }

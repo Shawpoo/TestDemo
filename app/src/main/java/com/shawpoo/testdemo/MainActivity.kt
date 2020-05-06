@@ -28,5 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         // master add
         Log.d(TAG, "test git commit --amend.")
+
+        // master log
+        Log.d(TAG, "这是你同事的代码")
     }
 }
